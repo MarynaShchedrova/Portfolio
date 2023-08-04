@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .hexagon-photo {
+    height: 46em;
+    width: 30em;
+    background-size: 20em 20em, 17em 17em, 10em 10em;
+    background-position: 2em 3em, 10em 16em, 3em 32em;
+  }
+  .hexagon:nth-of-type(1) {
+    top: 3em;
+    left: 5em;
+  }
+  .hexagon:nth-of-type(2) {
+    top: 17em;
+    left: 14em;
+  }
+  .hexagon:nth-of-type(3) {
+    top: 0;
+    left: 19em;
+  }
+  .hexagon:nth-of-type(4) {
+    top: 27em;
+    left: 6em;
+  }
+  .hexagon:nth-of-type(5) {
+    top: 33em;
+    left: 16em;
+  }
+  .hexagon:nth-of-type(6) {
+    top: 14em;
+    left: 1em;
+  }
+  .hexagon:nth-of-type(7) {
+    top: 40em;
+    left: 11em;
+  }
+  .hexagon:nth-of-type(8) {
+    top: 1em;
+    left: 1em;
+  }
+  .hexagon:nth-of-type(9) {
+    top: 11em;
+    left: 20em;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1) translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 408px;
+    height: 584px;
+    background-color: var(--modal-color);
+    border-radius: 5px;
+    padding: 24px;
+    padding-top: 72px;
+  }
+  .mobile {
+    display: none;
+  }
+  .content {
+    display: flex;
+  }
+  .card-container {
+    margin: 140px 0;
+  }
+}

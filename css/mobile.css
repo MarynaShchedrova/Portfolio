@@ -1,0 +1,80 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .content {
+    display: block;
+  }
+
+  .social {
+    padding-left: 96px;
+    width: 400px;
+  }
+  /* .section {
+    max-width: 421px;
+  } */
+  .hexagon-photo {
+    height: 61em;
+    width: 20em;
+    background-size: 18em 18em, 17em 17em, 10em 10em;
+    background-position: 1.5em 7em, 0em 25em, 7em 44em;
+  }
+
+  .hexagon:nth-of-type(1) {
+    top: 4em;
+    left: 4em;
+  }
+  .hexagon:nth-of-type(2) {
+    top: 20em;
+    left: 1em;
+  }
+  .hexagon:nth-of-type(3) {
+    top: 10em;
+    left: 14em;
+  }
+  .hexagon:nth-of-type(4) {
+    top: 43em;
+    left: 0em;
+  }
+  .hexagon:nth-of-type(5) {
+    top: 14em;
+    left: 2em;
+  }
+  .hexagon:nth-of-type(6) {
+    top: 20em;
+    left: 14em;
+    height: 4em;
+    width: 4em;
+  }
+  .hexagon:nth-of-type(7) {
+    top: 46em;
+    left: 14em;
+  }
+  .hexagon:nth-of-type(8) {
+    top: 1em;
+    left: 1em;
+  }
+  .hexagon:nth-of-type(9) {
+    top: 36em;
+    left: 4em;
+    /* height: 3em;
+    width: 3em; */
+  }
+
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
+  .mobile-menu-soc {
+    gap: 56px;
+  }
+
+  .card-container {
+    margin: 0px 0;
+  }
+  .page_nav {
+    display: none;
+  }
+}
