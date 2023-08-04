@@ -1,12 +1,9 @@
 @media screen and (min-width: 1200px) {
-  /* .container {
+  .container {
     max-width: 1158px;
-  } */
+  }
   .social {
     padding-left: 40px;
     height: 300px;
-  }
-  .card-container {
-    margin: 140px 0;
   }
 }

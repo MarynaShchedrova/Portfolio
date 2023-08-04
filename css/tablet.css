@@ -3,10 +3,10 @@
     max-width: 768px;
   }
 
-  .section {
+  /* .section {
     padding-top: 96px;
     padding-bottom: 96px;
-  }
+  } */
   .hexagon-photo {
     height: 46em;
     width: 30em;
@@ -77,7 +77,10 @@
   .content {
     display: flex;
   }
-  .card-container {
-    margin: 140px 0;
+  .page-footer {
+    height: 400px;
+  }
+  .page_nav {
+    display: flex;
   }
 }
